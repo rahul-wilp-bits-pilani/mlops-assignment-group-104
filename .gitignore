@@ -1,0 +1,5 @@
+venv/
+k8s/
+mlruns/
+plots/
+mlflow.db
