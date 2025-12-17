@@ -1,0 +1,22 @@
+artifact_path: /home/jarvis/Desktop/M.Tech/Sem3/MLOPs/Gemini/heart-disease-mlops/mlruns/1/models/m-886dce64f8774b9ebb8c004837f50685/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-886dce64f8774b9ebb8c004837f50685
+model_size_bytes: 995
+model_uuid: m-886dce64f8774b9ebb8c004837f50685
+prompts: null
+run_id: 6bed269238ec4522ae4e8e68ebffe9d4
+utc_time_created: '2025-12-15 04:01:50.199777'

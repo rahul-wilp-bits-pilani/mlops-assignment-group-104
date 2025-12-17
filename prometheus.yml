@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s  # Scrape metrics every 5 seconds
+
+scrape_configs:
+  - job_name: 'heart_disease_api'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['ml-api:8000'] # Connects to the 'ml-api' container defined in docker-compose
